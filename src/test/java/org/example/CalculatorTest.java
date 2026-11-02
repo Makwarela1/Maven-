@@ -9,9 +9,12 @@ public class CalculatorTest extends TestCase {
     @Test
     public void testAdd(){
         Calculator calculator = new Calculator();
-        assertEquals(2, calculator.add(10, 2));
+        assertEquals(12, calculator.add(10, 2));
     }
 
-    public void
+    public void testMultiply(){
+        Calculator calculator = new Calculator();
+        assertEquals(5, calculator.multiply(1,5));
+    }
 
 }
